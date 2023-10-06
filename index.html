@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octopus Crawling Baby Toy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://istaticbucket.blob.core.windows.net/botcode/710-14198653-1696504925243.js"></script>
+</head>
+
+<body>
+
+    <div class="video">
+
+        <video class="video_container" src="https://cdn.shopify.com/videos/c/o/v/053fcc64c16e450e8c853285ab733691.mp4"
+            loop autoplay muted></video>
+
+    </div>
+
+    <button class="buyNow">
+        Buy Now
+    </button>
+
+    <script>
+
+        document.getElementsByClassName('buyNow')[0].addEventListener('click', () => {
+
+            let obj = {
+                method: 'addNewPaymentIframe',
+                data: {
+                    landingPage: true,
+                    product: {
+                        image: '\/\/cdn.shopify.com\/s\/files\/1\/0642\/1692\/4408\/products\/8409024166.jpg?v=1681200279',
+                        title: 'Electronic LED Mosquito Killer Machine trap lamp With USB',
+                        quantity: 1,
+                        price: 58900,
+                        variant_id: 43772270510328
+                    },
+                    original_total_price: 58900,
+                    total_price: 58900
+                }
+            }
+
+            parent.postMessage(obj, "*");
+
+        })
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

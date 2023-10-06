@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy the Octopus Crawling Baby Toy - a fun and educational toy for kids.">
     <title>Octopus Crawling Baby Toy</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
 </head>
-
 <body>
-
+  
     <div class="video">
-
-        <video class="video_container" src="https://cdn.shopify.com/videos/c/o/v/053fcc64c16e450e8c853285ab733691.mp4"
-            loop autoplay muted></video>
-
+        <video class="video_container" src="https://cdn.shopify.com/videos/c/o/v/053fcc64c16e450e8c853285ab733691.mp4" loop autoplay muted></video>
     </div>
 
-    <button class="buyNow">
-        Buy Now
-    </button>
+    <div class="product-container" id="product-details">
+        <h1>Octopus Crawling Baby Toy</h1>
+        <div class="product-details">
+            <p>
+                <strong>Product Name:</strong> Octopus Crawling Baby Toys Tummy Time Toys Fun Walking Dancing Sensory Musical Toy with Light<br>
+                <strong>Material:</strong> Polyvinyl Chloride<br>
+                <strong>Color:</strong> Colour as per availability<br>
+                <strong>Combo/Set Of:</strong> Pack of 1
+            </p>
+            <ul>
+                <li>🎶 Musical Light-Up Toy: Watch in awe as our captivating Crawling Octopus Toy brings music and light into your child's world!</li>
+                <li>🐙 Crawling Octopus Toy: Experience the wonder of our adorable Crawling Octopus, designed to encourage your baby's motor skills development.</li>
+                <li>🚫 Obstacle Avoidance Toy: Safety first! This Octopus Toy is equipped with obstacle-avoidance technology for uninterrupted play.</li>
+                <li>💡 LED Lights and Melodies: Your little one will be entranced by the vibrant LED lights and enchanting melodies of our Infant Tummy Time Toy, stimulating sensory engagement.</li>
+                <li>🌟 Interactive Learning: Foster cognitive development, hand-eye coordination, and problem-solving skills with our interactive developmental toys.</li>
+                <li>🔋 Removable Battery Toy: Crafted with high-quality materials and removable battery set-up, this high-quality baby toy ensures long-lasting enjoyment.</li>
+                <li>🎁 Children's Gift: Looking for the perfect children's gift? Our Electric Crawling Pets are ideal for Christmas, birthdays, and Thanksgiving.</li>
+                <li>🌈 Multifunctional Musical Toys: These non-toxic ABS toys offer multifunctional fun, suitable for babies, toddlers, kids, girls, and boys.</li>
+                <li>👥 Interactive Children's Toys: Encourage physical movement, coordination, and family bonding with these interactive toys.</li>
+            </ul>
+        </div>
+    </div>
 
-    <script>
+    <div class="buy-now-container" id="buy-now">
+        <div class="buy-now-content">
+            <h2>Get Your Octopus Crawling Baby Toy Today!</h2>
+            <p>Experience endless fun and learning with our interactive toy.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+    </div>
 
-        document.getElementsByClassName('buyNow')[0].addEventListener('click', () => {
-
-            let obj = {
-                method: 'addNewPaymentIframe',
-                data: {
-                    landingPage: true,
-                    product: {
-                        image: '\/\/cdn.shopify.com\/s\/files\/1\/0642\/1692\/4408\/products\/8409024166.jpg?v=1681200279',
-                        title: 'Electronic LED Mosquito Killer Machine trap lamp With USB',
-                        quantity: 1,
-                        price: 58900,
-                        variant_id: 43772270510328
-                    },
-                    original_total_price: 58900,
-                    total_price: 58900
-                }
-            }
-
-            parent.postMessage(obj, "*");
-
-        })
-
-
-    </script>
-
-
-
-
-
+    <footer>
+        <p>&copy; 2023 Octopus Crawling Baby Toy</p>
+    </footer>
+    
+    <script src="https://istaticbucket.blob.core.windows.net/botcode/710-14198653-1696504925243.js"></script>
 </body>
-
-<script src="https://istaticbucket.blob.core.windows.net/botcode/710-14198653-1696504925243.js"></script>
-
 </html>
